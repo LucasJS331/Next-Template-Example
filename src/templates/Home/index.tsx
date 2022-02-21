@@ -1,11 +1,5 @@
-import { CloneMe } from '../../components/CloneMe'
-import * as Styled from './styles'
+import Clone from '../../components/CloneMe';
 
 export function Home() {
-  return (
-    <Styled.Wrapper>
-      <CloneMe title="Clone-me" />
-    </Styled.Wrapper>
-  );
+  return <Clone />;
 }
-

@@ -1,13 +1,32 @@
-import * as Styled from './styles';
+import style from 'styled-components';
+import img from './img/clone.gif';
 
-export type CloneMeProps = {
-  title?: string;
-};
+const Container = style.div`
+  width: 100%;
+  height: 100vh;
+  background: rgba(76,229,221,255);
+  text-align: center;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 
-export function CloneMe({ title = 'Change-me' }: CloneMeProps) {
+  h1{
+    letter-spacing: 4px;
+    font-size: 5rem;
+  }
+  img{
+    width: 350px;
+    height: 350px;
+    border-radius: 5px;
+  }
+`;
+export default function Clone() {
   return (
-    <Styled.Wrapper>
-      <h1>{title}</h1>
-    </Styled.Wrapper>
+    <Container>
+      <h1>Projeto Clone</h1>
+      <img alt="clone" src={img} />
+    </Container>
   );
 }
