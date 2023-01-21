@@ -1,5 +1,5 @@
-# 🐱‍👤 Projeto Clone 🐱‍👤
-Uma aplicação totalmente configurada para você iniciar seu projeto sem se preocupar!
+# 🐱‍👤 Project Portfolio🐱‍👤
+A presentation site of my professional life!
 ## Fast View
 <img src="./public/assets/img/clone.gif">
 
