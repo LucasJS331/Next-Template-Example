@@ -1,5 +1,5 @@
 # 🐱‍👤 Project Portfolio🐱‍👤
-A presentation site of my professional life!
+A presentation site of my professional lifee!
 ## Fast View
 <img src="./public/assets/img/clone.gif">
 
